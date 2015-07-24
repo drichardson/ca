@@ -11,13 +11,13 @@ to maintain the generated CA data such as CA cert and key, index, serial numbers
 It's intended that these files be checked into source control or be regularly backed up.
 
 Scripts
-=======
+-------
 - `create-ca.sh`: Create a new Certificate Authority
 - `make-csr.sh`: Make a Certificate Signing Request
 - `sign-csr.sh`: Sign a Certificate Signing Request
 
 Creating a Certificate Authority
-================================
+--------------------------------
 Run `create-ca.sh` to create a new certificate authority. Once you do, the root certificate
 for the authority will be installed to cadata/cacert.pem and signed certificates will
 be stored under cadata/newcerts when `sign-csr.sh` is run. 
