@@ -21,3 +21,7 @@ Creating a Certificate Authority
 Run `create-ca.sh` to create a new certificate authority. Once you do, the root certificate
 for the authority will be installed to cadata/cacert.pem and signed certificates will
 be stored under cadata/newcerts when `sign-csr.sh` is run. 
+
+Other CA Tools
+--------------
+* [Easy RSA](https://github.com/OpenVPN/easy-rsa) - better and easier to use than this project.
